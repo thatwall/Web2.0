@@ -1,0 +1,140 @@
+/* 
+   name:ouyangzhuo;
+   section: 11;
+   description: movie review;
+*/
+body {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png");
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	padding: 0px;
+	margin: 0px;
+}
+
+.BannerBackground {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png");
+	height: 50px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+#content {
+	width: 800px;
+	border-style: solid;
+    border-color: gray;
+    border-width: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.left {
+	width: 550px;
+	float: left;
+	overflow: hidden;
+}
+
+.right {
+	width: 250px;
+	float: right;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+
+.left .rottenbackground {
+	background-image: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png");
+	height: 83px;
+	color: white;
+	font-size: 8pt;
+}
+
+.left .rottenbackground img {
+	vertical-align: bottom;
+}
+
+.left .rottenbackground span.percent32 {
+	font-size: 48pt;
+	color: red;
+	font-weight: bold;
+}
+
+.left .rottenbackground span.tot_review_88 {
+	font-size: 8pt;
+	color: white;
+	font-weight: normal;
+}
+
+.left .left_reviews {
+	float: left;
+	width: 47%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.left .right_reviews {
+	overflow: hidden;
+	width: 47%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+p.review_box {
+	overflow: hidden;
+	font-size: 8pt;
+	font-weight: bold;
+	background-color: #E1D697;
+	border: solid gray 2px;
+	padding: 8px;
+}
+
+p.review_box img {
+	vertical-align: bottom;
+	float: left;
+	margin-right: 5px;
+}
+
+p.person_info {
+	overflow: hidden;
+	margin-bottom: 3em;
+}
+
+p.person_info span.publication {
+	font-style: italic;
+}
+
+p.person_info img {
+	float: left;
+	margin-right: 5px;
+}
+
+.right dl.movie_info {
+	margin: 10px;
+}
+
+.right dl.movie_info dt {
+	font-weight: bold;
+}
+
+.right dl.movie_info dd {
+	margin-bottom: 1em;
+}
+
+p.pages {
+	clear: right;
+	text-align: center;
+	background-color: #A2B964;
+	padding: 5px;
+	margin: 0px;
+}
+
+.w3c {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+}
