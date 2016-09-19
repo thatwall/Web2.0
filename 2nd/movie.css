@@ -134,7 +134,11 @@ p.pages {
 }
 
 .w3c {
-	position: fixed;
+	position: absolute;
 	right: 0px;
 	bottom: 0px;
+}
+
+.whole {
+	position: relative;
 }
