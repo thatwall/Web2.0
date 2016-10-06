@@ -1,0 +1,265 @@
+ul {
+	list-style-type: none;
+}
+
+#bottom-positioner {
+	position: absolute;
+	left: 50%;
+	top: 61%;
+}
+
+#button {
+	width: 60px;
+	height: 60px;
+}
+
+/*#info-bar {
+	position: absolute;
+	left: -27px;
+	top: -130px;
+	background-color: gray;
+	font-weight: bold;
+	color: white;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	opacity: 1;
+}*/
+
+#info-bar {
+	position: absolute;
+	left: 16px;
+	top: 16px;
+	background-color: gray;
+	font-weight: bold;
+	color: white;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 0px;
+	height: 0px;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+	overflow: hidden;
+}
+
+
+.info ul {
+	/* width: 100px; */
+	text-align: center;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+	margin: 8px;
+}
+
+#button:hover #info-bar {
+	position: absolute;
+	left: -16px;
+	top: -130px;
+	background-color: gray;
+	font-weight: bold;
+	color: white;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.info ul li {
+	margin: 5px;
+}
+
+.info ul img {
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.page.comment {
+	font-size: 30px;
+}
+
+.mine.posted, .mine.like {
+	color: rgba(9, 220, 153, 0.96);
+	display: inline;
+}
+
+#control-ring li {
+	background-color: gray;
+	font-weight: bold;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	-webkit-background-origin:content-box;
+	background-size: 50% 50%;
+	background-repeat:no-repeat;
+	position: absolute;
+	/* left: -51px; */
+	/* top: -8px; */
+}
+
+.mask.button {
+	background: url("assets/images/nomask.png") center;
+	/* position: absolute; */
+	left: 16px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+#button:hover .mask.button {
+	/*transform: translate(-27px, -14px);*/
+	left: -61px;
+	top: -21px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.history.button {
+	background: url("assets/images/history.png") center;
+	left: 16px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+#button:hover .history.button {
+	left: -70px;
+	top: 30px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.message.button {
+	background: url("assets/images/message.png") center;
+	left: 16px;
+	top: 16px;
+	width: 0px;
+	height: 0px;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+#button:hover .message.button {
+	left: -47px;
+	top: 78px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.unread {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    right: -3px;
+    top: -6px;
+}
+
+.setting.button {
+	background: url("assets/images/setting.png") center;
+	left: 16px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+#button:hover .setting.button {
+	left: 1px;
+	top: 101px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.sign.button {
+	background: url("assets/images/signin.png") center;
+	left: 16px;
+	top: 16px;
+	width: 0;
+	height: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+#button:hover .sign.button {
+	left: 52px;
+	top: 83px;
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	transition: all 0.5s ease 0s;
+}
+
+.apb {
+	position: absolute;
+	left: 25%;
+}
+
+.icon {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: url("assets/images/atplus_white.png");
+    background-position: center;
+	background-color: rgba(48, 63, 159, 0.5);
+	background-size: 80%;
+	background-repeat:no-repeat;
+	/**/
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	transition: all 0.5s ease-in-out 1s;
+}
+
+
+#button:hover .icon {
+	-webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+    background-color: rgba(48, 63, 159, 1);
+	background-size: 80%;
+	background-repeat:no-repeat;
+    background-image: url("assets/images/atplus_green.png");
+    background-position: center;
+	transition: all 0.5s ease 0s;
+}
+
+/*#button:hover .icon {
+	background: url("assets/images/atplus_green.png") center;
+	background-color: rgba(48, 63, 159, 1);
+	border-radius: 50px;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	width: 50px;
+	height: 50px;
+}*/
